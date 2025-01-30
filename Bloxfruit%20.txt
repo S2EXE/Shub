@@ -4,15 +4,15 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "S2 hub | Blox Fruits",
+    Title = "S2 hub | Blox Fruits | UPD [ Beta ]",
     SubTitle = "by S2 hub Team",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true,
-    Theme = "Darker",
+    Theme = "Light",
     MinimizeKey = Enum.KeyCode.LeftControl
 })
-local Tabs = {
+
 Window:AddTab1({ Title = "تجميع", Icon = "home" }),
 
 Window:AddTab2({ Title = "البحري", Icon = "waves"}),
@@ -40,9 +40,6 @@ Window:AddTab10({ Title = "متجر", Icon = "shopping-cart" })
 Window:AddTab11({ Title = "Misc", Icon = "list-plus" }),
 
 Window:AddTab12({ Title = "Hop", Icon = "wifi" }),
-{
-local Options = Fluent.Options
-do
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Place Id Check
 local id = game.PlaceId
@@ -8019,7 +8016,7 @@ InterfaceManager:SetFolder("SPEEDScriptHub")
 SaveManager:SetFolder("SPEEDWAVE/specific-game")
 Window:SelectTab(1)
 Fluent:Notify({
-    Title = "SPEED WAVE | Blox Fruit",
+    Title = "S2 | Blox Fruit",
     Content = "تم تحميل السكربت",
     Duration = 8
 })
