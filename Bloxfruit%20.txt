@@ -12,7 +12,7 @@ local Window = Fluent:CreateWindow({
     Theme = "Light",
     MinimizeKey = Enum.KeyCode.LeftControl
 })
-
+local Tabs = {
 Window:AddTab1({ Title = "تجميع", Icon = "home" }),
 
 Window:AddTab2({ Title = "البحري", Icon = "waves"}),
@@ -40,6 +40,9 @@ Window:AddTab10({ Title = "متجر", Icon = "shopping-cart" })
 Window:AddTab11({ Title = "Misc", Icon = "list-plus" }),
 
 Window:AddTab12({ Title = "Hop", Icon = "wifi" }),
+}
+local Options = Fluent.Options
+do
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Place Id Check
 local id = game.PlaceId
