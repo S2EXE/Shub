@@ -13,21 +13,34 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.LeftControl
 })
 local Tabs = {
-    Main = Window:AddTab1({ Title = "تجميع", Icon = "home" }),
-    SeaEvent = Window:AddTab2({ Title = "البحري", Icon = "waves"}),
-    Status = Window:AddTab3({ Title = "الحالة", Icon = "cloud-moon" }),
-    Setting = Window:AddTab3({ Title = "الإعدادات", Icon = "settings" }),
-    Stats = Window:AddTab({ Title = "احصائيات", Icon = "plus-circle" }),
-    Player = Window:AddTab4({ Title = "الاعب", Icon = "box" }),
-    Teleport = Window:AddTab5({ Title = "الجزيره", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "الفاكهة", Icon = "cherry" }),
-    Mirage = Window:AddTab6({ Title = "جزيرة ميراج", Icon = "waypoints"}),
-    Raid = Window:AddTab7({ Title = "فراق", Icon = "swords" }),
-    Race = Window:AddTab8({ Title = "Race V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab9({ Title = "متجر", Icon = "shopping-cart" }),
-	Misc = Window:AddTab10({ Title = "Misc", Icon = "list-plus" }),
-    Hop = Window:AddTab11({ Title = "Hop", Icon = "wifi" }),
-}
+Window:AddTab1({ Title = "تجميع", Icon = "home" }),
+
+Window:AddTab2({ Title = "البحري", Icon = "waves"}),
+
+Window:AddTab3({ Title = "الحالة", Icon = "cloud-moon" }),
+
+Window:AddTab3({ Title = "الإعدادات", Icon = "settings" }),
+
+Window:AddTab({ Title = "احصائيات", Icon = "plus-circle" }),
+
+Window:AddTab4({ Title = "الاعب", Icon = "box" }),
+
+Window:AddTab5({ Title = "الجزيره", Icon = "palmtree" }),
+
+Window:AddTab6({ Title = "الفاكهة", Icon = "cherry" }),
+
+Window:AddTab7({ Title = "جزيرة ميراج", Icon = "waypoints"}),
+
+Window:AddTab8({ Title = "فراق", Icon = "swords" }),
+
+Window:AddTab9({ Title = "Race V4", Icon = "chevrons-right" }),
+
+Window:AddTab10({ Title = "متجر", Icon = "shopping-cart" })
+
+Window:AddTab11({ Title = "Misc", Icon = "list-plus" }),
+
+Window:AddTab12({ Title = "Hop", Icon = "wifi" }),
+{
 local Options = Fluent.Options
 do
 --------------------------------------------------------------------------------------------------------------------------------------------
